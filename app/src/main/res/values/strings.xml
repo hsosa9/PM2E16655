@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PM2E16655</string>
+    <string name="btn_foto">FOTOGRAFIA</string>>
+    <string name="btn_subir">IMAGEN</string>
+    <string name="tv1">Pais</string>
+    <string name="tvN">Nombre</string>
+    <string name="tvNom">Ingrese Nombre y Apellido</string>
+    <string name="telefono">Telefono</string>
+    <string name="te">Numero de telefono</string>
+    <string name="tv_nota">Nota</string>
+    <string name="tv">Datos del Contacto</string>
+    <string name="btn_Sc">Salvar Contactos</string>
+    <string name="btn_Cs">Contactos Salvados</string>
+</resources>

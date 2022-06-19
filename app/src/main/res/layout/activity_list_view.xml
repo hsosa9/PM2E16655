@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityListView">
+
+  <LinearLayout
+      android:id="@+id/linearlayout2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnatras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#ACB1AC"
+        android:lineSpacingExtra="14sp"
+        android:text="Atras" />
+
+    <EditText
+        android:id="@+id/txtbusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Buscar"
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/linearLayout3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listausuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="286dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:choiceMode="singleChoice"
+        android:listSelector="@drawable/bg_key">
+
+    </ListView>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/Linearlayout4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btncompartir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#4CAF50"
+        android:lineSpacingExtra="14sp"
+        android:text="Compartir Contacto"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btnllamar"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#4CAF50"
+        android:lineSpacingExtra="14sp"
+        android:text="Ver Imagen"
+        android:textSize="10sp" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/Linearlayout5"
+      android:layout_width="match_parent"
+      android:layout_height="109dp"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btneliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2196F3"
+        android:lineSpacingExtra="14sp"
+        android:text="Eliminar Contacto"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btnactualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2196F3"
+        android:lineSpacingExtra="14sp"
+        android:text="Actualizar Contacto"
+        android:textSize="10sp" />
+
+
+  </LinearLayout>
+
+</LinearLayout>

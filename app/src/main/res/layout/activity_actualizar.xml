@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityActualizar">
+
+  <Button
+      android:id="@+id/btnatras"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="20dp"
+      android:backgroundTint="#ACB1AC"
+      android:lineSpacingExtra="14sp"
+      android:text="Atras"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.049"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      tools:ignore="MissingConstraints" />
+
+  <ImageView
+      android:id="@+id/foto"
+      android:layout_width="129dp"
+      android:layout_height="141dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.248"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.135"
+      tools:srcCompat="@tools:sample/avatars" />
+
+  <Button
+      android:id="@+id/btnSubirFoto"
+      android:layout_width="134dp"
+      android:layout_height="51dp"
+      android:backgroundTint="#2196F3"
+      android:text="SUBIR FOTO"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.848"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.189" />
+
+  <Button
+      android:id="@+id/btnTomarFoto"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="#4CAF50"
+      android:text="TOMAR FOTO"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.849"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.121" />
+
+  <EditText
+      android:id="@+id/txtnombre"
+      android:layout_width="325dp"
+      android:layout_height="48dp"
+      android:layout_marginTop="4dp"
+      android:ems="10"
+      android:hint="Nombre Completo"
+      android:inputType="textPersonName"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.383"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView2"
+      app:layout_constraintVertical_bias="0.015" />
+
+  <Spinner
+      android:id="@+id/sppaices"
+      style="@android:style/Widget.Holo.Light.Spinner"
+      android:layout_width="325dp"
+      android:layout_height="47dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.348"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.388" />
+
+  <EditText
+      android:id="@+id/txttelefono"
+      android:layout_width="322dp"
+      android:layout_height="44dp"
+      android:layout_marginTop="8dp"
+      android:ems="10"
+      android:hint="Telefono"
+      android:inputType="number"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.37"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="99dp"
+      android:layout_height="31dp"
+      android:layout_marginTop="4dp"
+      android:text="Telefono"
+      android:textAlignment="textStart"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.105"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/txtnombre" />
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="91dp"
+      android:layout_height="34dp"
+      android:layout_marginTop="16dp"
+      android:text="Nota"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.093"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/txttelefono" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="70dp"
+      android:layout_height="32dp"
+      android:layout_marginTop="16dp"
+      android:text="Nombre"
+      android:textAlignment="center"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.087"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/sppaices" />
+
+  <Button
+      android:id="@+id/btnEditar"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="70dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="70dp"
+      android:backgroundTint="#388E3C"
+      android:text="ACTUALIZAR"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/txtnota" />
+
+  <EditText
+      android:id="@+id/txtnota"
+      android:layout_width="334dp"
+      android:layout_height="44dp"
+      android:layout_marginTop="4dp"
+      android:background="#B9F6F1"
+      android:ems="10"
+      android:inputType="textPersonName"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.428"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView4"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="56dp"
+      android:layout_height="29dp"
+      android:text="Pais"
+      android:textAlignment="center"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.084"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.337" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
