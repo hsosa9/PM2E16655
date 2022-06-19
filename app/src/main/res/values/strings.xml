@@ -11,4 +11,7 @@
     <string name="tv">Datos del Contacto</string>
     <string name="btn_Sc">Salvar Contactos</string>
     <string name="btn_Cs">Contactos Salvados</string>
+    <string name="btn_Regresar">ATRAS</string>
+    <string name="btn_Actualizar">ACTUALIZAR</string>
+
 </resources>

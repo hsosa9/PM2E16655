@@ -15,11 +15,11 @@
 
     <Button
         android:id="@+id/btnatras"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_marginStart="20dp"
-        android:backgroundTint="#ACB1AC"
+        android:backgroundTint="#FF9800"
         android:lineSpacingExtra="14sp"
         android:text="Atras" />
 
@@ -70,26 +70,25 @@
 
     <Button
         android:id="@+id/btncompartir"
-        android:layout_width="wrap_content"
+        android:layout_width="144dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="#4CAF50"
+        android:backgroundTint="#C803FD"
         android:lineSpacingExtra="14sp"
         android:text="Compartir Contacto"
         android:textSize="10sp" />
 
     <Button
         android:id="@+id/btnllamar"
-        android:layout_width="147dp"
+        android:layout_width="158dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="27dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="#4CAF50"
+        android:backgroundTint="#000DFF"
         android:lineSpacingExtra="14sp"
         android:text="Ver Imagen"
         android:textSize="10sp" />
@@ -99,32 +98,32 @@
   <LinearLayout
       android:id="@+id/Linearlayout5"
       android:layout_width="match_parent"
-      android:layout_height="109dp"
+      android:layout_height="match_parent"
       android:orientation="horizontal">
 
     <Button
         android:id="@+id/btneliminar"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="61dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#2196F3"
-        android:lineSpacingExtra="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#E80000"
+        android:lineSpacingExtra="48sp"
         android:text="Eliminar Contacto"
         android:textSize="10sp" />
 
     <Button
         android:id="@+id/btnactualizar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_height="61dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#2196F3"
-        android:lineSpacingExtra="14sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#8BC34A"
+        android:lineSpacingExtra="8sp"
         android:text="Actualizar Contacto"
         android:textSize="10sp" />
 
